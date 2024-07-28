@@ -1,32 +1,59 @@
 footer{
     width: 100%;
-    background-color: #40798C;
   }
   
   .footer-menu{
     padding-left: 0px;
     width: 100%;
-    height: 75px;
+    height: 100%;
+  }
+  .footer-menu p {
+    margin: 0px;
   }
   
-  .footer-menu li a{
+  .footer-menu a{
     color: #fff;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 13px;
   }
-  
-  .footer-menu li{
-    font-size: 8px;
-  }
+
   
   
   #list-style{
     list-style: none;
   }
+
+  /*Box "NOSSO PORTIFOLIO*/
+
+  .box-portifolio{
+    width: 316px;
+    height: 40px;
+    border: solid 1px;
+  }
   
-  
+  .textPort p{
+    margin: 0px;
+  }
+
+  .img-port img{
+    width: 26px;
+    height: 26px;
+  }
+
+  /*box de redes sociais*/
+
+
+  .box-redes{
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+  }
   /* Config desktop*/
   
+  .contato img{
+    width: 14px;
+    height: 14px ;
+  }
   
   
   @media (min-width: 768px) {

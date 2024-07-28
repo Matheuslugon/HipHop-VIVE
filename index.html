@@ -10,49 +10,44 @@
   <!--Styles Css-->
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/main/home/home.css">
-  <link rel="stylesheet" href="css/main/about.css">
-  <link rel="stylesheet" href="css/main/portfolio.css">
-  <link rel="stylesheet" href="css/main/contact.css">
+  <link rel="stylesheet" href="css/main/visão.css">
+  <link rel="stylesheet" href="css/main/conecte-se.css">
+  <link rel="stylesheet" href="css/main/ondeEstamos.css">
   <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="Parallax-Scrolling/Parallax.css">
-  <!---->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;800&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Parallax/Parallax_yellow/Parallax_yellow.css">
+  <link rel="stylesheet" href="Parallax/Parallax_black/Parallax_black.css">
+  <!--Parallax test-->
+
+  <!--Font Family-->
   <!-- Link do formulario-->
   <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
-  <title>Matheus Lugon - Web Developer</title>
+  <title>HipHop_VIVE</title>
 </head>
 
 <body>
   <!--Section Topo-->
   <header class="fixed-top">
-    <div class="container-md d-flex justify-content-between align-items-center">
+    <div class="margin_header d-flex justify-content-between align-items-center">
 
       <ul class="menu-links d-none d-md-flex navbar-nav flex-row gap-4 align-items-center c-white">
         <li class="nav-item">
-          <a class="nav-link" href="#home">INÍCIO</a>
+          <a class="nav-link" href="#home">O MOVIMENTO</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">SOBRE MIM</a>
+          <a class="nav-link" href="#ondeEstamos">ONDE ESTAMOS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#trabalhos">TRABALHOS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">CONECTE-SE</a>
-        </li>
+          <a class="nav-link" href="#visao">VISÃO</a>
         </li>
       </ul>
 
+      <div class="d-flex icon_nav">
+        <img src="img/logos/logo1.png" alt="">
+      </div>
+
       <nav class="navbar">
         <div class="container">
-          <a class="navbar-brand button-style c-white" href="https://www.linkedin.com/in/matheus-lugon-7b7b901b6/"
+          <a class="navbar-brand button-style" href="https://www.linkedin.com/in/matheus-lugon-7b7b901b6/"
             target="_blank">
             ENTRE EM CONTATO
           </a>
@@ -91,167 +86,113 @@
             <a class="nav-link c-white" href="#trabalhos">TRABALHOS</a>
           </li>
           <li class="nav-item" data-bs-dismiss="offcanvas">
-            <a class="nav-link c-white" href="#contact">CONECTE-SE</a>
+            <a class="nav-link c-black" href="#contact">CONECTE-SE</a>
           </li>
           </li>
         </ul>
       </div>
     </div>
   </header>
-  <!-- Conteudo para o site -->
   <main>
-    <!--Section Inicio-->
+    <!--Elemenrs used for page home-->
     <section id="home" class="banner-home">
-      <div class="master-home d-flex flex-column justify-content-center">
-        <div class="text-home d-flex flex-column justify-content-center gap-4">
-          <h1>
-            <strong>
-              &lt;
-            </strong>
-            Oi, <br> prazer em recebê-lo aqui
-            <strong>
-              &gt;
-            </strong>
-          </h1>
-          <p>
-            Me chamo Matheus Lugon, <br> desenvolvedor e viciado em aprender sempre mais.
-          </p>
-          <div class="button-style d-flex text-center justify-content-center" id="button-home">
-            <a href="#about">
-              VEM COMIGO, QUERO TE MOSTRAR UMA COISA
-            </a>
+      <div class="img_topo">
+        <img src="img/home/flyer.png" alt="">
+      </div>
+      <div class="master-home d-flex flex-column justify-content-center gap-4">
+        <div class="img_home d-flex gap-4">
+          <div class="d-flex img-home1">
+            <img src="img/home/home1.png" alt="">
+          </div>
+          <div class=" d-flex img-home2">
+            <img src="img/home/home2.png" alt="">
           </div>
         </div>
-        <div class="img-home d-none
-           justify-content-center">
-          <img src="css/main/home/matheus_eu.gif" alt="Matheus Lugon - Web Developer">
+        <div class="text-home d-flex flex-column justify-content-center gap-4">
+          <h1>
+           O RAP É<br>
+           COMPROMISSO!
+          </h1>
+          <h3>
+            Pega a visão!
+          </h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus cumque provident excepturi esse doloribus harum ea illum accusamus, odit, odio iste ratione explicabo, iure cupiditate commodi nulla. Blanditiis, qui non!
+          </p>
+          <div class="button-style d-flex align-items-center text-center justify-content-center" id="button-home">
+            <div class="son_button d-flex">
+              <a href="#a">
+                OCUPAR E RESISTIR!
+              </a>
+            </div>
+            <div class="son_button2 d-flex">
+              <img src="img/logos/rap 1.png" alt="" srcset="">
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="about">
-      <!--Section Sobre-->
-      <div class="master-about d-flex flex-column">
-        <div class="text-about d-flex flex-column justify-content-center gap-3">
-          <div class="img-dev d-flex justify-content-center">
-            <img src="img/about/HTML.svg" alt="HTML">
-            <img class="css" src="img/about/CSS.svg" alt="CSS">
-            <img src="img/about/BOOT.svg" alt="bootstrap">
-          </div>
-       
-          <div class="img-about-mobile d-flex justify-content-center">
-            <img src="img/about/perfil_port.jpg" alt="">
-          </div>
-
-          <div class="about-son">
-            <h1>
-              Deixa eu me apresentar...
-            </h1>
-            <p>
-              Sou um carioca de 23 anos, apaixonado por tecnologia e ávido por conhecimento.
-            </p>
-            <p>
-              Atualmente, estou no quarto período do curso de Análise e Desenvolvimento de Sistemas, com um foco
-              especial em desenvolvimento web.
-            </p>
-            <p>
-              Me qualifico desenvolvedor Júnior.
-            </p>
-          </div>
-          <div class="list-social d-flex justify-content-center">
-            <ul class="d-flex">
-              <li>
-                <a href="https://www.instagram.com/nowaskimatheus" target="_blank">
-                  <img src="img/about/instagram.png" alt="instagram">
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/matheus-lugon-7b7b901b6/" target="_blank">
-                  <img src="img/about/linkedin.png" alt="linkedin">
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/Matheuslugon" target="_blank">
-                  <img src="img/about/github.png" alt="github">
-                </a>
-              </li>
-              <li>
-                <a href="mailto:matheusnowaskinowaski99@gmail.com" target="_blank">
-                  <img src="img/about/mail.png" alt="mail">
-                </a>
-              </li>
-              <li>
-                <div class="button-port text-center">
-                  <a href="img/about/Matheus Lugon - currículo.pdf" target="_blank"
-                    download="Matheus Lugon - currículo.pdf" type="application/pdf">
-                    CURRÍCULO
-                  </a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!--img desktop-->
-        <div class="img-about d-flex justify-content-center">
-          <img src="img/about/perfil_port.jpg" alt="">
-        </div>
+    <!--Elements used for YELLOW Parallax-->
+    <section class="wave-box-yellow">
+              <div class="wave" id="wave1-yellow"></div>
+              <div class="wave" id="wave2-yellow"></div>
+              <div class="wave" id="wave3-yellow"></div>
+              <div class="wave" id="wave4-yellow"></div>
+            
     </section>
-    <section id="trabalhos" class="container">
-      <!--Section Portifólio-->
-      <h2 class="mb-5">
-        Meu portifolio
-      </h2>
+    <!--Elemenrs used for page ONDE_ESTAMOS -->
+    <section id="ondeEstamos" class="bd-ondeEstamos">
+    </section>
 
-      <div class="master-port row row-cols-1 row-cols-md-2">
-        <div class=" d-flex align-items-center">
-          <div class="imgs-port row row-cols-1 row-cols-md-2" id="image-port">
-            <a href="https://matheuslugon.github.io/consultorio-site/" class="col" id="consultorio-site"
-              target="_blank">
-              <img src="img/works/consultorio.jpeg" alt="">
-            </a>
-
-            <a href="https://presintuperj.com.br/" class="col" id="presintuperj" target="_blank">
-              <img src="img/works/sintuperj-pre.jpeg" alt="presintuperj">
-            </a>
-
-            <a href="#trabalhos" class="col">
-              <img src="img/works/em-breve.png" alt="">
-            </a>
-
-            <a href="#trabalhos" class="col">
-              <img src="img/works/em-breve.png" alt="">
-            </a>
-
+    <!--Elemenrs used for page VISÃO -->
+    <section id="visao" class="visao">
+      <div class="visao-father d-flex flex-column">
+        <div class="text_visao d-flex flex-column">
+          <h1>
+            NOSSA <br> VISÃO
+          </h1>
+          <p class=""> 
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, delectus nulla deleniti obcaecati veritatis tempora modi eligendi nemo consectetur, exercitationem qui, voluptates quia magni at! Tempore optio natus odio obcaecati?
+          </p>
+        </div class="d-flex">
+        <!--Elemenrs used for button visiao-->
+        <div class="d-flex button-style">
+          <div class="d-flex">
+            <p>www.hiphopvivebr.com.br</p>
+          </div>
+          <div class="d-flex">
+            <img src="img/visao/Internet.png" alt="">
+          </div>
+          <div class="d-flex">
+            <img src="img/visao/Instagram.png" alt="">
+          </div>
+          <div class="d-flex">
+            <img src="img/visao/WhatsApp.png" alt="">
+          </div>
+          <div class="d-flex">
+            <img src="img/visao/TwitterX.png" alt="">
           </div>
         </div>
+      </div>
 
-        <div class="col d-flex align-items-center justify-content-center">
-          <!--GIF HTML-->
-          <div class="img-port d-flex justify-content-center">
-            <img src="img/works/HTML.gif" alt="Matheus Lugon - Web Developer">
-          </div>
-        </div>
+    <!--Elements used for BLACK Parallax-->
+    <section class="wave-box-black">
+      <div class="wave-black" id="wave1-black"></div>
+      <div class="wave-black" id="wave2-black"></div>
+      <div class="wave-black" id="wave3-black"></div>
+      <div class="wave-black" id="wave4-black"></div>
+      </section>
     </section>
-    <!--Elementos utilizados para o Parallax Scrolling-->
-    <section class="ondas-box">
-              <div class="onda" id="onda1"></div>
-              <div class="onda" id="onda2"></div>
-              <div class="onda" id="onda3"></div>
-              <div class="onda" id="onda4"></div>
-            </div>
-    </section>
-    <!--Section Contato-->
-    <section id="contact" class="bd-color">
+    
+  <!--Section Contato-->
+    <section id="conecte-se" class="bd-color">
       <div class="master-contact d-flex flex-column justify-content-center align-items-center">
-
-        <div class="img-contact d-flex justify-content-center">
-          <img src="img/contact/img_web.gif" alt="">
-        </div>
 
         <div class="text-contact d-flex flex-column justify-content-center align-items-center">
           <h1>
             <strong>
-              Orçamentos, propostas dúvidas e sugestões:
+              Quer o Hip-Hop Vive na <br> sua batalha?
             </strong>
           </h1>
 
@@ -366,39 +307,67 @@
     </section>
   </main>
   <!--Section rodapé-->
-
-
   <footer>
-    <ul class="footer-menu d-flex align-items-center justify-content-center gap-4">
-      <li id="list-style">
-        <a href="#home">
-          HOME
-        </a>
-      </li>
-      <li>
-        <a href="#about">
-          SOBRE
-        </a>
-      </li>
-      <li>
-        <a href="#trabalhos">
-          TRABALHOS
-        </a>
-      </li>
-      <li>
-        <a href="#contact">
-          CONTATO
-        </a>
-      </li>
-      <li>
-        <i class="fa-regular fa-copyright"></i>
-        2023 Lugon
-      </li>
-    </ul>
+    <div class="footer-menu d-flex justify-content-evenly align-items-center">
+      <div class="d-flex">
+          <a href="#">
+            <img src="img/logos/logo1.png" alt="">
+          </a>
+      </div>
+      <div class="d-flex flex-column">
+        <div class="d-flex gap-2">
+          <div class="d-flex align-self-center ">
+            <img class="d-flex" src="img/footer/iconEmail.png" alt="" srcset="">
+          </div>
+          <div class="d-flex">
+            <a class="d-flex" href="#">
+              <p>MCMARECJAÇ@VVAR.COM</p>
+            </a>
+          </div>
+        </div>
+          <div class="d-flex align-self-center gap-2">
+            <div class="d-flex align-self-center">
+              <img class="d-flex" src="img/footer/telefone.png" alt="" srcset="">
+            </div>
+            <div class="d-flex">
+              <a class="d-flex" href="#">
+                <p>+55(21)969784410 / (21)986028193 </p>
+              </a>
+            </div>
+          </div>
+      </div>
+      <div class="box-portifolio d-flex gap-4 justify-content-center">
+        <div class="img-port d-flex align-self-center">
+          <img src="img/footer/camera.png" alt="">
+        </div>
+        <div class="textPort d-flex align-self-center">
+          <p>NOSSO PORTIFÓLIO</p>
+        </div>
+      </div>
+      <div class="redes d-flex gap-2">
+        <div class="box-redes d-flex">
+          <a href="#"><img src="img/footer/instagram.png" alt="">
+          </a>
+        </div>
+        <div class="box-redes d-flex">
+          <a href="#"><img src="img/footer/youtube.png" alt="">
+          </a>
+        </div>
+        <div class=" box-redes d-flex">
+          <a href="#">
+            <img src="img/footer/spotify.png" alt="">
+          </a>
+        </div>
+        <div class="box-redes d-flex">
+          <a href="#">
+            <img src="img/footer/email.png" alt="">
+          </a></div>
+        </div>
   </footer>
 </body>
 <!--Arquivos JavaScript-->
-<script src="Parallax-Scrolling/Parallax.js"></script>
+<script src="Parallax/Parallax_yellow/Parallax_yellow.js"></script>
+<script src="Parallax/Parallax_black/Parallax_black.js"></script>
 <script src="js/bravoForm.js"></script>
 <!---->
 <script src="https://kit.fontawesome.com/241d540593.js" crossorigin="anonymous"></script>
