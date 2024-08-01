@@ -1,8 +1,9 @@
 section.wave-box-black{
   position: relative;
   width: 100%;
-  min-height: 30vh;
-  /*background-color: #f70000fd ;*/
+  min-height: 0px;
+  /* background-color: #f70000fd; */
+  padding-top: 0px;
 }
 
 .wave-black{
@@ -10,7 +11,7 @@ section.wave-box-black{
   height: 100px;
   position: absolute;
   bottom: 0;
-  background-image: url('wave_black.png');
+  background-image: url('Design_1.png');
   background-size: 1000px 100px;
   animation: ondaAnimada 5s ease-in-out infinite alternate;
 }

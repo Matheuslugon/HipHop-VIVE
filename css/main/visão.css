@@ -4,6 +4,7 @@
     background-size: cover;
     height: 100%;
     width: 100%;
+    padding-top: 0px;
 }
 
 .visao-father{
@@ -17,4 +18,9 @@
 
 .text_visao p{
     text-align: right;
+}
+
+.padding-vs{
+    padding-right: 9%;
+    margin-top: -100px;
 }
