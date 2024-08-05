@@ -8,9 +8,10 @@
 }
 
 .visao-father{
-    align-items: flex-end;
-    width: 30%;
+    width: 95%;
+    padding-right: 0px;
 }
+
 
 .text_visao h1{
     text-align: right;
@@ -20,7 +21,15 @@
     text-align: right;
 }
 
-.padding-vs{
-    padding-right: 9%;
-    margin-top: -100px;
+
+@media screen and (min-width: 1000px) {
+    .visao-father{
+        align-items: flex-end;
+        width: 40%;
+    }
+    .padding-vs{
+        padding-right: 9%;
+        margin-top: -100px;
+    }
+    
 }

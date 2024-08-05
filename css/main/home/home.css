@@ -1,9 +1,20 @@
+section#home{
+  padding-top: 15px;
+}
 .banner-home{
-    background-image: linear-gradient(rgba(16, 31, 37, 0.73) ,rgb(10, 31, 39, 0.73) ), url();
+    background-image: linear-gradient(rgba(16, 31, 37, 0.73) ,rgb(10, 31, 39, 0.73) ), url(img-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;
+  }
+
+  .img_home {
+    display: none !important;
+  }
+
+  .img_topo{
+    display: none !important;
   }
   
   #button-home{
@@ -11,7 +22,7 @@
   }
   
   .text-home{
-    width: 35%;
+    width: 95%;
     padding: 0px 20px;
   }
   
@@ -19,8 +30,14 @@
     font-size: 3rem;
     padding: 0px;
   }
+  
+  .son_button2 img{
+    width: 35px;
+  }
 
   .button-style a{
+    font-size: 17px;
+    font-family: "Rubik Wet Paint", system-ui;
     color: black;
     text-decoration: none;
   }
@@ -30,6 +47,7 @@
     margin-top: 20px;
   }
  
+
 /*
   .button-style-home{
     font-size: 16px;
@@ -46,20 +64,32 @@
 
   @media screen and (min-width: 1000px) {
     /*Config home*/
-  
+
+ 
     .banner-home{
       background-image: none
     }
   
-    .img-home{
+    .img_home{
       display: flex !important;
     }
     .img-home img{
       width: 100%;
       height: 522px;
     }
+
+    .text-home{
+      width: 35%;
+      padding: 0px 20px;
+    }
+    
+    .text-home h1{
+      font-size: 3rem;
+      padding: 0px;
+    }
     
     #button-home{
+      gap: 8px;
       width: 265px;
       height: 61px;
     }
@@ -81,6 +111,10 @@
   .master-home{
     margin-left: 9%;
     margin-right: 9%;
+  }
+
+  .img_topo{
+    display: flex !important;
   }
   
   }
