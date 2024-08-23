@@ -27,27 +27,38 @@
   <title>HipHop_VIVE</title>
 </head>
 
-]<body>
+<body>
   <!--Section Topo-->
   <header class="fixed-top">
     <div class="margin_header d-flex justify-content-between align-items-center">
 
       <ul class="menu-links d-none d-md-flex navbar-nav flex-row gap-4 s c-white font_Rubi">
         <li class="nav-item">
-          <a class="nav-link font_Rubi" href="#home">O MOVIMENTO</a>
+          <a class="nav-link font_Rubi"
+          href="#home">O MOVIMENTO</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link font_Rubi" href="#ondeEstamos">ONDE ESTAMOS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link font_Rubi" href="#visao">VISÃO</a>
+          <a class="nav-link font_Rubi" 
+          href="#ondeEstamos">ONDE ESTAMOS</a>
         </li>
       </ul>
 
       <div class="d-flex icon_nav">
-        <img src="img/logos/logo1.png" alt="">
+        <img src="img/logos/logo1.png" alt="O Hip-Hop vive neguin!">
       </div>
 
+      <ul class="menu-links d-none d-md-flex navbar-nav flex-row gap-4 s c-white font_Rubi">
+        <li class="nav-item">
+          <a class="nav-link font_Rubi"
+          href="#visao">VISÃO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font_Rubi"
+          href="#conecte-se">CONECTE-SE</a>
+        </li>
+      </ul>
+
+      <!--BUTÃO DO MENU!
       <nav class="navbar">
         <div class="container">
           <a class="navbar-brand button-style" href="https://www.linkedin.com/in/matheus-lugon-7b7b901b6/"
@@ -56,7 +67,7 @@
           </a>
         </div>
       </nav>
-
+      -->
       <!-- icon do Menu Hamburguer-->
       <button class="menu-icon d-flex align-items-center justify-content-center fs-3 d-md-none" type="button"
         data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
@@ -99,9 +110,14 @@
   <main>
     <!--Elemenrs used for page home-->
     <section id="home" class="banner-home">
-      <div class="img_topo">
-        <img src="img/home/flyer.png" alt="">
+      
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="img/home/flyer.png" alt="Imagem">
+          <img src="img/home/flyer.png" alt="Imagem">
+        </div>
       </div>
+      
       <div class="master-home d-flex flex-column justify-content-center gap-4">
         <div class="img_home d-flex gap-4">
           <div class="d-flex img-home1">
@@ -137,7 +153,7 @@
     </section>
 
     <!--Elements used for YELLOW Parallax-->
-    <section class="wave-box-yellow">
+    <section class="wave-box-yellow" id="ondeEstamos">
               <div class="wave" id="wave1-yellow"></div>
               <div class="wave" id="wave2-yellow"></div>
               <div class="wave" id="wave3-yellow"></div>
@@ -145,7 +161,7 @@
             
     </section>
     <!--Elemenrs used for page ONDE_ESTAMOS -->
-    <section id="ondeEstamos" class="bd-ondeEstamos">
+    <section class="bd-ondeEstamos">
     </section>
 
     <!--Elemenrs used for page VISÃO -->
@@ -308,10 +324,9 @@
             </div>
 
           </div>
-        -->
 
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSedUYLGQL7qfnEk8JW4tgmqJomm_8WDB9LDBDvG5_yMJDfFFw/viewform?embedded=true" width="640" height="451" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-
+      -->
         </div>
       </div>
 
@@ -321,12 +336,12 @@
   <!--Section rodapé-->
   <footer>
     <div class="footer-menu d-flex justify-content-evenly align-items-center">
-      <div class="d-flex">
+      <div class="d-flex logo-footer">
           <a href="#">
             <img src="img/logos/logo1.png" alt="">
           </a>
       </div>
-      <div class="d-flex flex-column">
+      <div class="box-contact d-flex flex-column">
         <div class="d-flex gap-2">
           <div class="d-flex align-self-center ">
             <img class="d-flex" src="img/footer/iconEmail.png" alt="" srcset="">
