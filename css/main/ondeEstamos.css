@@ -1,3 +1,8 @@
 .bd-ondeEstamos{
+    justify-content: start !important;
     background-color: #f7cb00;
+}
+
+.carouselRodas{
+    gap: 30px;
 }

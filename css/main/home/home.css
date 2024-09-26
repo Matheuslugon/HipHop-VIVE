@@ -1,5 +1,5 @@
 section#home{
-  padding-top: 15px;
+  padding-top: 0px;
 }
 .banner-home{
     background-image: linear-gradient(rgba(16, 31, 37, 0.73) ,rgb(10, 31, 39, 0.73) ), url(img-mobile.png);
@@ -104,35 +104,36 @@ section#home{
       width: 345px;
     }
     
-  .master-home{
-    margin-left: 9%;
-    margin-right: 9%;
-  }
+    .master-home{
+      margin-left: 9%;
+      margin-right: 9%;
+    }
 
-  .carousel {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .carousel-track {
-    display: flex !important;
-    width: 200%; /* Dobro do tamanho da div para permitir a animação */
-    animation: slide 25s infinite linear;
-  }
-  
-  .carousel-track img {
-    width: 50%; /* Para ocupar metade da largura do container */
-  }
-  
-  @keyframes slide {
-    0% {
-      transform: translateX(0);
+    .carousel {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      margin-bottom: 40px;
     }
-    100% {
-      transform: translateX(-50%);
+    
+    .carousel-track {
+      display: flex !important;
+      width: 200%; /* Dobro do tamanho da div para permitir a animação */
+      animation: slide 25s infinite linear;
     }
-  }
+    
+    .carousel-track img {
+      width: 50%; /* Para ocupar metade da largura do container */
+    }
+    
+    @keyframes slide {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
 }
 
   

@@ -7,6 +7,10 @@
   font-family: "Rubik Wet Paint", system-ui;
 }
 
+.color-black{
+  color: #000000;
+}
+
 .color-red{
   color: #EB1515;
 }
