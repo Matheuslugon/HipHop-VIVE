@@ -3,6 +3,55 @@
     background-color: #f7cb00;
 }
 
-.carouselRodas{
-    gap: 30px;
-}
+.carousel-container {
+    position: relative;
+    width: 55%; /* Ajuste conforme o tamanho desejado */
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel-wrapper {
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .carouselRodas {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .coliseu, .helianto, .marginow, .soulPixta {
+    min-width: 33.33%; /* Mantendo 3 itens visíveis por vez */
+    box-sizing: border-box;
+    padding: 10px; /* Ajuste de espaçamento */
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel-button.prev {
+    left: 0;
+  }
+  
+  .carousel-button.next {
+    right: 0;
+  }
+
+  .spotify{
+    width: 95%;
+    margin-bottom: 30px;
+  }
+  

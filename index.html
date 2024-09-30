@@ -161,28 +161,48 @@
     </section>
     <!--Elemenrs used for page ONDE_ESTAMOS -->
     <section class="bd-ondeEstamos gap-4">
+
       <div class="text_ondeEstamos d-flex ">
         <h1 class="font_Rubi color-red">Onde estamos?</h1>
       </div>
-      <div class="carouselRodas d-flex">
-        <div class="coliseu d-flex flex-column align-items-center">
-          <img src="img/ondeEstamos/coliseu.png" alt="">
-          <h3 class="font_Rubi color-black">Coliseu</h3>
+
+      <div class="carousel-container">
+        <div class="carousel-wrapper d-flex">
+          <div class="carouselRodas d-flex">
+            <div class="coliseu d-flex flex-column align-items-center">
+              <img src="img/ondeEstamos/coliseu.png" alt="">
+              <h3 class="font_Rubi color-black">Coliseu</h3>
+            </div>
+            <div class="helianto d-flex flex-column align-items-center">
+              <img src="img/ondeEstamos/helianto.png" alt="">
+              <h3 class="font_Rubi color-black">Helianto</h3>
+            </div>
+            <div class="marginow d-flex flex-column align-items-center">
+              <img src="img/ondeEstamos/marginow.png" alt="">
+              <h3 class="font_Rubi color-black">Marginow</h3>
+            </div>
+            <div class="soulPixta d-flex flex-column align-items-center">
+              <img src="img/ondeEstamos/soulPixta.png" alt="">
+              <h3 class="font_Rubi color-black">Soul Pixta</h3>
+            </div>
+            <div class="marginow d-flex flex-column align-items-center">
+              <img src="img/ondeEstamos/marginow.png" alt="">
+              <h3 class="font_Rubi color-black">RCO</h3>
+            </div>
+            <div class="soulPixta d-flex flex-column align-items-center">
+              <img src="img/ondeEstamos/soulPixta.png" alt="">
+              <h3 class="font_Rubi color-black">Soul Pixta</h3>
+            </div>
+          </div>
         </div>
-        <div class="helianto d-flex flex-column align-items-center">
-          <img src="img/ondeEstamos/helianto.png" alt="">
-          <h3 class="font_Rubi color-black">Helianto</h3>
-        </div>
-        <div class="marginow d-flex flex-column align-items-center">
-          <img src="img/ondeEstamos/marginow.png" alt="">
-          <h3 class="font_Rubi color-black">Helianto</h3>
-        </div>
-        <div class="soulPixta d-flex flex-column align-items-center">
-          <img src="img/ondeEstamos/soulPixta.png" alt="">
-          <h3 class="font_Rubi color-black">Soul Pixta</h3>
-        </div> 
+        <button class="carousel-button prev">&lt;</button>
+        <button class="carousel-button next">&gt;</button>
       </div>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4QsfSMCOEmTbPzHCCLbhgr?utm_source=generator" width="67%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      
+      <div class="spotify d-flex  justify-content-center">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4QsfSMCOEmTbPzHCCLbhgr?utm_source=generator" width="57.50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      
     </section>
 
     <!--Elemenrs used for page VISÃO -->
@@ -235,14 +255,14 @@
     <section id="conecte-se" class="bd-color">
       <div class="master-contact d-flex flex-column justify-content-center align-items-center">
 
-        <div class="text-contact d-flex flex-column justify-content-center align-items-center">
+        <div class="text-contact d-flex flex-column justify-content-center align-items-center gap-1">
           <h1 class="font_Rubi">
               Quer o Hip-Hop Vive na <br> sua batalha?
           </h1>
           <h4>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</h3>
           <p>Deixe seu e-mail que entraremos em contato:</p>
           <div class="formulario-master">
-            <input type="text" placeholder="Digite seu e-mail...">
+            <input type="email" placeholder="Digite seu e-mail...">
           </div>
           <input type="button" value="ENVIAR">
           
@@ -323,5 +343,6 @@
 </script>
 <script src="https://www.google.com/recaptcha/api.js?hl=pt">
 </script>
+<script src="js/carousel.js"></script>
 
 </html>
