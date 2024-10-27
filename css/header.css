@@ -39,15 +39,25 @@
   width: 350px;
 }
 
+
+
 header {
   width: 100%;
   background-color:#121212;
   box-shadow: 9px 4px 4px rgba(0, 0, 0, .1);
-  
+}
+
+.icon_nav{
+  width: auto;
 }
 
 .icon_nav img{
-  width: 75%;
+  width: 100%;
+  height: 95px;
+}
+
+.menu-links-left{
+  padding-left:2%;
 }
 
 .margin_header{
@@ -100,6 +110,10 @@ nav {
   color: var(--white);
   border: none;
   background-color: transparent;
+}
+
+.menu-links{
+  width: 22%;
 }
 
 .menu-links li a {
