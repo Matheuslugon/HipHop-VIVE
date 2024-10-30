@@ -127,6 +127,7 @@ nav {
 }
 
 section {
+  scroll-margin-top: 100px;
   min-height: 93vh;
   padding-top: 90px;
   display: -webkit-box;

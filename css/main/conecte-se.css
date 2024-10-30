@@ -1,4 +1,6 @@
-
+.text-contact{
+  text-align: center;
+}
 .text-contact h1{
     text-align: center;
 }
@@ -69,3 +71,4 @@ h4{
 .sib-form{
   padding: 0px !important;
 }
+/*TEST BUTON*/

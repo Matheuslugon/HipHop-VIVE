@@ -51,6 +51,6 @@ section.wave-box-yellow{
 }
 @media screen and (min-width: 1000px) {
   section.wave-box-yellow{
-    min-height: 25vh;
+    min-height: 15vh;
   }
 }
