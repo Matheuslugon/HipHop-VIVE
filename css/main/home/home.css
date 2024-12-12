@@ -57,6 +57,11 @@ section#home{
     border-radius: 30px;
     gap: 25px;
   }*/
+  @media screen and (max-width: 1000px) {
+  .carousel{
+    display: none;
+  }
+}
 
   @media screen and (min-width: 1000px) {
     /*Config home*/

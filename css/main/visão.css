@@ -22,8 +22,18 @@
 }
 
 .button-style{
-    width: 63%;
+    width: auto;
 }
+
+.animation{
+    transition: 250ms linear; 
+
+}
+
+.animation:hover {
+    transform: scale(1.1);
+    color: red !important; 
+} 
 
 .text_visao a{
     font-style: italic;         /* Deixa o texto em itálico */

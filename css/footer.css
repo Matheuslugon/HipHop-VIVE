@@ -42,6 +42,9 @@ footer{
 
   /*box de redes sociais*/
 
+  .redes{
+    flex-wrap: wrap;
+  }
 
   .box-redes{
     background-color: #fff;

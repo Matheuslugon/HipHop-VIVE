@@ -3,6 +3,10 @@
   color: white;
 }
 
+a{
+  text-decoration: none;
+}
+
 .font_Rubi{
   font-family: "Rubik Wet Paint", system-ui;
 }
