@@ -99,3 +99,12 @@ footer{
       display: none !important;
     }
   }
+
+  @media screen and (max-width: 580px) {
+    .box-contact{
+      display: none !important;
+    }
+    .box-portifolio{
+      border: black;
+    }
+  }

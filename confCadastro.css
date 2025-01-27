@@ -1,0 +1,74 @@
+*{
+    font-family: 'Quicksand', serif;
+}
+
+body{
+    background-image: url(css/main/13\ 1.png);
+    background-color: rgba(0, 0, 0, 0.8); /* Cor preta com 50% de opacidade */
+    background-blend-mode: darken;        /* Combina a cor com a imagem */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    height: 100vh;          /* Ocupa toda a altura da janela */
+    margin: 0;              /* Remove margens padrão */ 
+}
+
+.font_Rubi{
+    font-family: "Rubik Wet Paint", system-ui;
+}
+
+.master{
+    width: 40%;
+    flex-direction: column;
+}
+
+.master1{
+    justify-content: center;
+}
+
+.master1 img {
+    width: 30%;
+}
+
+.master2{
+    flex-direction: column;
+}
+.master2 h2{
+    text-align: center;
+    margin-right: 15px;
+    color: #f8cd00;
+}
+.master2 p{
+    text-align: justify;
+    color: #f8cd00;
+}
+
+@media (max-width: 768px) {
+    .master{
+        width: 90%;
+        flex-direction: column;
+    }
+    
+    .master1{
+        justify-content: center;
+    }
+    
+    .master1 img {
+        width: 50%;
+    }
+    
+    .master2{
+        flex-direction: column;
+    }
+    .master2 h2{
+        
+        text-align: center;
+        margin-right: 15px;
+    }
+    .master2 p{
+        font-weight: 200;
+        text-align: justify;
+    }
+    
+
+}

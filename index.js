@@ -12,6 +12,10 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
+app.get('/cadastro', (req, res) => {
+  res.sendFile(path.join(__dirname, 'confCadastro.html'));
+});
+
 // Porta onde o servidor será executado
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

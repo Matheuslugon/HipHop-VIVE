@@ -1,5 +1,5 @@
 * {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Quicksand', serif;
   color: white;
 }
 
@@ -11,12 +11,24 @@ a{
   font-family: "Rubik Wet Paint", system-ui;
 }
 
+.buttonMenuShop{
+  gap: 
+  10px!important;
+}
+
+.buttonMenuShopimg{
+  width: 28px;
+}
 .color-black{
   color: #000000;
 }
 
+.color-yellow{
+  color: #F7CB00;
+}
+
 .color-red{
-  color: #EB1515;
+  color: #EB1515!important;
 }
 
 ::-webkit-scrollbar-track-piece {
@@ -58,15 +70,17 @@ header {
 .icon_nav img{
   width: 100%;
   height: 95px;
-}
-
-.menu-links-left{
-  padding-left:2%;
+  padding-left: 50px;
 }
 
 .margin_header{
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.son_button p{
+  margin: 0;
+  padding:0;
 }
 
 .button-style{
@@ -101,7 +115,7 @@ nav {
 }
 
 .body-menu-mobile{
-  background-color: #40798C !important;
+  background-color: rgba(202, 178, 39, 0.911) !important;
 }
 
 .logo-mobile img {
@@ -111,14 +125,12 @@ nav {
 .menu-icon {
   width: 50px;
   height: 50px;
-  color: var(--white);
+  color: black;
   border: none;
   background-color: transparent;
 }
 
-.menu-links{
-  width: 22%;
-}
+
 
 .menu-links li a {
   font-size: 14px;

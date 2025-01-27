@@ -3,57 +3,40 @@
     background-color: #f7cb00;
 }
 
-.carousel-container {
-    position: relative;
-    width: 55%; /* Ajuste conforme o tamanho desejado */
-    margin: auto;
-    overflow: hidden;
-  }
-  
-  .carousel-wrapper {
-    overflow: hidden;
-    display: flex;
-  }
-  
-  .carouselRodas {
-    display: flex;
-    transition: transform 0.5s ease;
-  }
-  
-  .coliseu, .helianto, .marginow, .soulPixta {
-    min-width: 33.33%; /* Mantendo 3 itens visíveis por vez */
-    box-sizing: border-box;
-    padding: 10px; /* Ajuste de espaçamento */
-  }
-  
-  img {
-    max-width: 100%;
-  }
-  
-  .carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgb(92 92 3 / 69%);
-    border: none;
-    color: white;
-    font-size: 24px;
-    padding: 10px;
-    border-radius: 35px;
-    width: 45px;
-    cursor: pointer;
-  }
-  
-  .carousel-button.prev {
-    left: 0;
-  }
-  
-  .carousel-button.next {
-    right: 0;
-  }
+.back-black{
+  background-color: #f7cb00!important;
+}
 
-  .spotify{
-    width: 95%;
-    margin-bottom: 30px;
-  }
-  
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.carousel-container {
+  position: relative;
+  width: 55%; /* Ajuste conforme o tamanho desejado */
+  margin: auto;
+  overflow: hidden;
+}
+
+.spotify{
+  width: 95%;
+  margin-bottom: 30px;
+}
