@@ -197,3 +197,9 @@ section p {
 .show {
   display: block;
 }
+
+@media (max-width: 1000px) {
+.icon_nav img{
+  padding-left: 0px;
+  }
+}

@@ -3,6 +3,10 @@
     background-color: #f7cb00;
 }
 
+.text_ondeEstamos h1{
+  text-align: center;
+}
+
 .back-black{
   background-color: #f7cb00!important;
 }

@@ -1,6 +1,6 @@
 .visao{
     background-image: url(13\ 1.png) ;
-    background-color: rgba(0, 0, 0, 0.4); /* Cor preta com opacidade */
+    background-color: rgba(0, 0, 0, 0.5); /* Cor preta com opacidade */
     background-blend-mode: darken;        /* Combina a cor com a imagem */
     background-repeat: no-repeat;
     background-size: cover;
