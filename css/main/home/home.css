@@ -57,6 +57,12 @@ section#home{
     border-radius: 30px;
     gap: 25px;
   }*/
+  @media screen and (max-width:375px ) {
+    section{
+      min-height: 110vh;
+    }
+  }
+  
 
   @media screen and (max-width:425px ) {
     .text-home h1 {
